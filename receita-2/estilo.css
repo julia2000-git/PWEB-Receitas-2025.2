@@ -1,0 +1,55 @@
+
+h2{
+    margin-left: 20px;
+}
+
+p{
+    margin-left: 20px;
+}
+
+p.verso{
+   color: blue;
+}
+
+p.mote{
+    color: red;
+}
+
+a:link {
+        color: #0000EE; /* cor azul padrão para links não visitados */
+}
+
+a:visited{
+    color: rgb(174, 63, 174);
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.poeta img{  /*classe poeta com imagens arredondadas*/
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+/*Estilo geral da tabela - tr é uma nova linha na tabela*/
+table{
+    width: 25%; /*largura da tabela*/
+    margin: 30px 20px; /*margens acima e à esquerda (se distancia da esquerda) aparentemente*/
+    border-collapse: collapse;  /*tira o espaço das bordas entre as células */
+}
+
+th{  /*Esse é o cabeçalho da tabela*/
+    background-color: rgb(143, 140, 140); /* cor de fundo das células de cabeçalho*/
+    color: black; /*cor do texto*/
+}
+
+th, td{ /*Estilo das linhas de dados - th e td */
+    padding: 8px; /* adicionando espaço interno nas células */
+    border: 1px solid #ccc ;  /*borda em cada linha de dado, fina, sólida e cinza claro*/
+    text-align: center;  /*itens centralizados*/
+}
